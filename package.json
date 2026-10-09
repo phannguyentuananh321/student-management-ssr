@@ -1,0 +1,13 @@
+{
+  "name": "student-management",
+  "version": "1.0.0",
+  "description": "Student Management Web App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

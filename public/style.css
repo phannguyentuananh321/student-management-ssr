@@ -1,0 +1,40 @@
+/* Custom clean styles supplementing Bootstrap */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #212529;
+  background-color: #f8f9fa;
+}
+
+.main-container {
+  max-width: 960px;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+}
+
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+.count-badge {
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+.empty-state {
+  font-size: 1.05rem;
+  font-style: italic;
+}
